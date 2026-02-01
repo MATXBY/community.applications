@@ -44,7 +44,7 @@
           Mode="rw" Description="App config folder" Type="Path" Display="always" Required="true" Mask="false"/>
 
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock"
-          Mode="rw" Description="Required to launch helper containers" Type="Path" Display="always" Required="true" Mask="false"/>
+          Mode="rw" Description="Required to launch helper containers. WARNING: Grants container access to Docker daemon." Type="Path" Display="always" Required="true" Mask="false"/>
 
   <!-- Optional audiobook roots (generic + portable) -->
   <Config Name="Audiobooks 1" Target="/audiobooks1" Default=""
