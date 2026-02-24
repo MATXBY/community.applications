@@ -9,7 +9,9 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
 
-  <Support>https://github.com/MATXBY/m4brew</Support>
+  <!-- Support thread on Unraid forums -->
+  <Support>https://forums.unraid.net/topic/197414-support-m4brew-audiobook-source-manager-m4b-converter/</Support>
+
   <Project>https://github.com/MATXBY/m4brew</Project>
   <Overview>m4brew - Audiobook source manager and M4B converter.</Overview>
   <Category>MediaApp:Audio</Category>
